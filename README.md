@@ -1,12 +1,26 @@
-# React + Vite
+# 🖥️ Ingenio Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Ingenio Dashboard** es el panel administrativo del sistema del **Ingenio Plan de Ayala**, encargado de **crear, editar, gestionar y eliminar flayers** (anuncios informativos o promocionales) que serán visualizados por los usuarios finales en la aplicación móvil **Ingenio App**.
 
-Currently, two official plugins are available:
+Este frontend está desarrollado en **React** y se conecta directamente con los endpoints REST del backend (**ingenio-backend**) construido en PHP. Su propósito es ofrecer a los administradores una herramienta práctica y visual para mantener actualizada la información mostrada en la app.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔗 Relación entre proyectos
+```bash
+[ingenio-dashboard] <==> [ingenio-backend] ==> [ingenio-app]
+      (React)               (PHP API)               (App)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## ⚙️ Tecnologías utilizadas
+
+- React + Vite
+- JavaScript moderno (ES6+)
+- Bootstrap 5 (o TailwindCSS si prefieres)
+- React Router DOM
+- Fetch API con hook personalizado
+- HTML semántico y diseño responsive
+
+---
