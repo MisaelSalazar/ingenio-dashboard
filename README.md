@@ -10,7 +10,7 @@ Este frontend está desarrollado en **React** y se conecta directamente con los 
 ```bash
 [ingenio-dashboard] <==> [ingenio-backend] ==> [ingenio-app]
       (React)               (PHP API)               (App)
-
+```
 
 ---
 
